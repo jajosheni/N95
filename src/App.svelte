@@ -1,21 +1,9 @@
 <script>
-	import bgAnimation from './styles/bgAnimation';
+  import Background from './components/Background.svelte';
 </script>
 
-<header>
-	<div class="animation-area">
-		<ul class="box-area">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</div>
-</header>
-<main>
+<Background/>
 
+<main>
 </main>
 
-{@html `<style>${bgAnimation}</style>`}
