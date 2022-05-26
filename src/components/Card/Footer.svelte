@@ -23,12 +23,10 @@
 
 <style>
     .bottom-buttons {
-        border-top: solid 1px rgba(255, 255, 255, 0.5);
+        border-top: solid 1px var(--white-overlay);
         position: absolute;
         bottom: 0;
         width: 100%;
-        margin: 0;
-        padding: 0;
         display: flex;
         justify-content: center
     }
@@ -47,21 +45,20 @@
     }
 
     .btn:hover {
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: var(--light-white-overlay);
         background-blend-mode: screen
     }
 
     .download-cv {
-        border-radius: 0 0 0 5px
+        border-radius: 0 0 0 var(--radius)
     }
 
     .email-me {
-        border-radius: 0 0 5px 0
+        border-radius: 0 0 var(--radius) 0
     }
 
     .splitter {
         display: inline-block;
-        margin: 0;
         padding: 0 1px;
         height: available;
         width: 1px;
