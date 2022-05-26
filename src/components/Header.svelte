@@ -1,5 +1,5 @@
 <script>
-  import Tabs from '../shared/Tabs.svelte';
+  import Tabs from '../components/Tabs.svelte';
   import TabStore from '../stores/TabStore';
 
   const handleTabChange = (e) => {
