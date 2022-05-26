@@ -1,5 +1,4 @@
 export default {
-  fontUrl: 'https://fonts.googleapis.com/css2?family=Poppins',
   coverImage: 'https://shemehamitaj.com/assets/images/banner.png',
   darkCoverImage: 'https://shemehamitaj.com/assets/images/banner.png',
   profileImage: 'https://shemehamitaj.com/assets/images/profile.jpg',
