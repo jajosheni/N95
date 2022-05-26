@@ -9,10 +9,13 @@
 <div class="tabs">
     <ul>
         {#each items as item}
-            <li class:active={item.active} on:click={() => dispatch('tabChange', item.name)}>
-                <img class="icon" src={item.icon} alt={item.name}>
-                {item.name}
-            </li>
+
+            <div style="width: 100%">
+                <li class:active={item.active} on:click={() => dispatch('tabChange', item.name)}>
+                    <img class="icon" src={item.icon} alt={item.name}>
+                    <span>{item.name}</span>
+                </li>
+            </div>
         {/each}
     </ul>
 </div>
@@ -27,15 +30,24 @@
         text-transform: uppercase;
         text-align: center;
         font-size: 0.75em;
-        color: var(--text)
+        color: var(--text);
+        margin: 15px 0;
+    }
+
+    .icon {
+        height: 24px;
+        width: 24px;
     }
 
     li {
         list-style: none;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         height: 70px;
         width: 100%;
-        margin: 20px 0;
+        padding: 5px 0;
     }
 
     li:hover, .active {
@@ -44,10 +56,4 @@
         background-blend-mode: screen
     }
 
-    li::after {
-        display: block;
-        content: " ";
-        height: 1px;
-        background: linear-gradient(to left, var(--text), var(--text), transparent)
-    }
 </style>
