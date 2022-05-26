@@ -1,7 +1,9 @@
 import colors from '../../resources/colors';
 
-export default `
-.animation-area {
+export const scopedID = Math.random().toString(36).slice(2, 7);
+
+export const bgStyle = `
+.animation-area-${scopedID} {
   position: fixed;
   z-index: -1;
   background: radial-gradient(circle at top, ${colors.darkerBackground}, ${colors.midDark});
@@ -9,7 +11,7 @@ export default `
   height: 100vh
 }
 
-.box-area {
+.box-area-${scopedID} {
   position: absolute;
   top: 0;
   left: 0;
@@ -18,7 +20,7 @@ export default `
   overflow: hidden
 }
 
-.box-area li {
+.box-area-${scopedID} li {
   position: absolute;
   display: block;
   list-style: none;
@@ -29,14 +31,14 @@ export default `
   border-radius: 10px
 }
 
-.box-area li:nth-child(1) {
+.box-area-${scopedID} li:nth-child(1) {
   left: 86%;
   width: 80px;
   height: 80px;
   animation-delay: 0s
 }
 
-.box-area li:nth-child(2) {
+.box-area-${scopedID} li:nth-child(2) {
   left: 6%;
   width: 30px;
   height: 30px;
@@ -44,28 +46,28 @@ export default `
   animation-duration: 5s
 }
 
-.box-area li:nth-child(3) {
+.box-area-${scopedID} li:nth-child(3) {
   left: 75%;
   width: 100px;
   height: 100px;
   animation-delay: 3.5s
 }
 
-.box-area li:nth-child(4) {
+.box-area-${scopedID} li:nth-child(4) {
   left: 45%;
   width: 150px;
   height: 150px;
   animation-delay: 8.0s
 }
 
-.box-area li:nth-child(5) {
+.box-area-${scopedID} li:nth-child(5) {
   left: 60%;
   width: 40px;
   height: 40px;
   animation-delay: 0s
 }
 
-.box-area li:nth-child(6) {
+.box-area-${scopedID} li:nth-child(6) {
   left: 9%;
   width: 150px;
   height: 150px;

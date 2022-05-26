@@ -1,8 +1,8 @@
 <script>
-  import bgAnimation from '../styles/bgAnimation';
+  import {scopedID, bgStyle} from '../styles/bgAnimation';
 </script>
-<div class="animation-area">
-    <ul class="box-area">
+<div class="animation-area-{scopedID}">
+    <ul class="box-area-{scopedID}">
         <li></li>
         <li></li>
         <li></li>
@@ -13,4 +13,4 @@
 </div>
 
 
-{@html `<style>${bgAnimation}</style>`}
+{@html `<style>${bgStyle}</style>`}
