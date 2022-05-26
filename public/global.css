@@ -13,6 +13,7 @@
 
 html, body {
     font-family: Poppins, sans-serif;
+    font-weight: 500;
     position: relative;
     width: 100%;
     height: 100%;
