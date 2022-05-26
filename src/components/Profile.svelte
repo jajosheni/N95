@@ -23,7 +23,7 @@
 
         <Links links={card.links}/>
 
-        <Footer />
+        <Footer cv={card.cv} email={card.email}/>
     </div>
 </div>
 

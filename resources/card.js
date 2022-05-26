@@ -4,8 +4,14 @@ export default {
   profileImage: 'https://shemehamitaj.com/assets/images/profile.jpg',
   fullName: 'Sheme Hamitaj',
   profession: 'Computer Engineer',
-  cv: 'https://shemehamitaj.com/assets/RESUME_Hamitaj.pdf',
-  email: 'shen.i@live.com',
+  cv: {
+    url: 'https://shemehamitaj.com/assets/RESUME_Hamitaj.pdf',
+    icon: 'https://shemehamitaj.com/assets/images/download.svg'
+  },
+  email: {
+    address: 'shen.i@live.com',
+    icon: 'https://shemehamitaj.com/assets/images/email.svg'
+  },
   links: [
     {
       title: 'Github',
