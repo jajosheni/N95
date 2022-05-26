@@ -8,8 +8,27 @@
 <Background/>
 
 <main role="main">
-    <Header/>
-    <Profile/>
-    <Drawer/>
+    <div class="container">
+        <Header/>
+        <Profile/>
+        <Drawer/>
+    </div>
 </main>
+
+<style>
+    main {
+        margin: 0 auto;
+        padding: 10vh 2vw;
+        width: 100%;
+        height: 85vh;
+        max-width: 1400px
+    }
+
+    .container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns:90px 0.8fr 1.2fr;
+        grid-template-areas:"hdr prf drw"
+    }
+</style>
 
