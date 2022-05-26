@@ -12,7 +12,7 @@
 <style>
     .animation-area {
         position: fixed;
-        z-index: -1;
+        z-index: -1000;
         background: radial-gradient(circle at top, var(--primary), var(--mid-dark-background));
         width: 100%;
         height: 100vh
