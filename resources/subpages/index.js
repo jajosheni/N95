@@ -3,9 +3,9 @@ import resume from './resume';
 import services from './services';
 import contact from './contact';
 
-export default {
+export default [
   about,
   resume,
   services,
   contact
-};
+];
