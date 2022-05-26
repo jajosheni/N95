@@ -3,7 +3,17 @@
   import Header from './components/Header.svelte';
   import Profile from './components/Profile.svelte';
   import Drawer from './components/Drawer.svelte';
+  import {title, meta} from '../resources/miscellaneous';
 </script>
+
+<svelte:head>
+    <title>{title}</title>
+
+    {#each meta as m}
+        <meta name={m.name}
+              content={m.content}>
+    {/each}
+</svelte:head>
 
 <Background/>
 
