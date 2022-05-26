@@ -1,9 +1,24 @@
 <script>
-
+  import card from '../../resources/card';
 </script>
 
 <div class="grid-item-profile">
+    <div class="profile-content">
+        <div class="banner-container">
+            <img class="banner" src={card.coverImage} alt="banner">
+        </div>
+        <div class="profile-pic-container">
+            <img src={card.profileImage} alt="profile pic" class="profile-pic">
+        </div>
 
+        <div class="full-name">
+            <span id="full-name">{card.fullName}</span>
+        </div>
+
+        <div class="subtitle">
+            <span id="profession">{card.profession}</span>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -16,5 +31,47 @@
         position: relative;
         background: var(--card-background);
         width: 100%
+    }
+
+    .banner-container {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .banner {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: var(--radius);
+    }
+
+    .profile-pic-container {
+        width: 140px;
+        height: 140px;
+        margin: -85px auto 20px
+    }
+
+    .profile-pic {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+        border: solid 3px var(--card-background);
+    }
+
+    .full-name {
+        color: var(--text);
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 0.95em;
+    }
+
+    .subtitle > span {
+        display: block;
+        color: var(--primary)
     }
 </style>
