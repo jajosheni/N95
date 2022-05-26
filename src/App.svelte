@@ -15,7 +15,7 @@
 	</div>
 </header>
 <main>
-	<h1>Hello!</h1>
+
 </main>
 
 {@html `<style>${bgAnimation}</style>`}
