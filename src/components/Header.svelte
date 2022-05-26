@@ -17,12 +17,12 @@
   };
 </script>
 
-<div class="grid-item">
+<div class="grid-item-header">
     <Tabs items={$TabStore} on:tabChange={handleTabChange}/>
 </div>
 
 <style>
-    .grid-item {
+    .grid-item-header {
         margin-top: 20px;
         grid-area: header;
         border-radius: var(--radius);
