@@ -8,6 +8,7 @@
 	--background-box-color: rgba(255, 255, 255, 0.05);
 	--text: #efefef;
 	--scroller-background: #555566;
+	--radius: 7px;
 }
 
 html, body {
@@ -18,4 +19,21 @@ html, body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: var(--radius)
+}
+
+::-webkit-scrollbar:horizontal {
+	height: var(--radius)
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--scroller-background);
+	border-radius: var(--radius)
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: none
 }
