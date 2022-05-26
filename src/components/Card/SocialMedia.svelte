@@ -1,12 +1,40 @@
-<script></script>
-
-
+<script>
+  export let links;
+</script>
 
 <ul class="social-media">
-    <li onclick="window.open('https://github.com/jajosheni', '_blank');" class="github"></li>
-    <li onclick="window.open('https://linkedin.com/in/shemehamitaj', '_blank');" class="linkedin"></li>
-    <li onclick="window.open('https://play.google.com/store/apps/dev?id=9083946006672030470', '_blank');"
-        class="apps"></li>
+    {#each links as link}
+        <li>
+            <a href={link.url} target="_blank">
+                <img class="icon" src={link.icon} alt={link.title}>
+            </a>
+        </li>
+    {/each}
 </ul>
 
-<style></style>
+<style>
+    .social-media {
+        margin-top: 10px;
+        text-align: center
+    }
+
+    .social-media > li {
+        margin: 0 1px;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+        padding: 7px 0;
+    }
+
+    .social-media > li:hover {
+        background-color: #5196fd;
+        background-blend-mode: screen;
+        border-radius: var(--radius)
+    }
+
+    .icon {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+</style>
