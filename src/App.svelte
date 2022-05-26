@@ -9,7 +9,7 @@
 <svelte:head>
     <title>{title}</title>
 
-    {#each meta as m}
+    {#each meta as m (m.name)}
         <meta name={m.name} content={m.content}>
     {/each}
 </svelte:head>
