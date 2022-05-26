@@ -16,7 +16,7 @@
 
 <Background/>
 
-<main role="main">
+<main>
     <div class="container">
         <Header/>
         <Profile/>
