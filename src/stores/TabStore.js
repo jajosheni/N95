@@ -5,6 +5,7 @@ const items = subpages.map(
   page => ({
     active: page.name === 'about',
     name: page.name,
+    icon: page.icon
   })
 );
 
