@@ -27,6 +27,7 @@
         grid-area: header;
         border-radius: var(--radius);
         background: var(--card-background);
-        width: 100%
+        width: 100%;
+        height: fit-content;
     }
 </style>
