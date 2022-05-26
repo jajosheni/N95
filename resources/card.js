@@ -1,6 +1,6 @@
 export default {
   coverImage: 'https://shemehamitaj.com/assets/images/banner.png',
-  darkCoverImage: '#',
+  darkCoverImage: 'https://shemehamitaj.com/assets/images/banner.png',
   profileImage: 'https://shemehamitaj.com/assets/images/profile.jpg',
   fullName: 'Sheme Hamitaj',
   profession: 'Computer Engineer',

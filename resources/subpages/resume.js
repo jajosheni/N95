@@ -1,5 +1,6 @@
 export default {
   pageTitle: 'Resume',
+  hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/resume.svg',
   experience: [
     {
