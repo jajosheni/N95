@@ -36,8 +36,8 @@
     .container {
         padding: 20px;
         display: grid;
-        grid-template-columns:90px 0.8fr 1.2fr;
-        grid-template-areas:"header profile drawer"
+        grid-template-columns:90px 10px 0.8fr 1.2fr;
+        grid-template-areas:"header separator profile drawer"
     }
 </style>
 

@@ -35,7 +35,7 @@
         display: block;
         height: 70px;
         width: 100%;
-        padding-top: 44px
+        margin: 20px 0;
     }
 
     li:hover, .active {

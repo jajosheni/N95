@@ -17,9 +17,16 @@
   };
 </script>
 
-<div class="head">
+<div class="grid-item">
     <Tabs items={$TabStore} on:tabChange={handleTabChange}/>
 </div>
 
 <style>
+    .grid-item {
+        margin-top: 20px;
+        grid-area: header;
+        border-radius: var(--radius);
+        background: var(--card-background);
+        width: 100%
+    }
 </style>
