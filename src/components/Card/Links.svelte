@@ -6,7 +6,7 @@
     {#each links as link}
         <li>
             <a href={link.url} target="_blank">
-                <img class="icon" src={link.icon} alt={link.title}>
+                <img src={link.icon} alt={link.title}>
             </a>
         </li>
     {/each}
@@ -30,11 +30,5 @@
         background-color: #5196fd;
         background-blend-mode: screen;
         border-radius: var(--radius)
-    }
-
-    .icon {
-        object-fit: contain;
-        width: 100%;
-        height: 100%;
     }
 </style>
