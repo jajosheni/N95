@@ -32,7 +32,7 @@
         display: block;
         list-style: none;
         width: 25px;
-        background: var(--background-box-color);
+        background: var(--lighest-white-overlay);
         animation: animate 10s linear infinite;
         bottom: -150px;
         border-radius: 10px
