@@ -3,10 +3,12 @@
   export let image;
 </script>
 
-<div class="header-button">{name}</div>
+<button>
+    {name}
+</button>
 
 <style>
-    .header-button {
+    button {
         text-transform: uppercase;
         text-align: center;
         font-size: 0.75em;
