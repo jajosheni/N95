@@ -1,5 +1,7 @@
 <script>
   import card from '../../resources/card';
+  import SocialMedia from './Card/SocialMedia.svelte';
+  import Footer from './Card/Footer.svelte';
 </script>
 
 <div class="grid-item-profile">
@@ -18,6 +20,10 @@
         <div class="subtitle">
             <span id="profession">{card.profession}</span>
         </div>
+
+        <SocialMedia links={card.links}/>
+
+        <Footer />
     </div>
 </div>
 
