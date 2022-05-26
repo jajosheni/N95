@@ -1,6 +1,6 @@
 <script>
   import card from '../../resources/card';
-  import SocialMedia from './Card/SocialMedia.svelte';
+  import Links from './Card/Links.svelte';
   import Footer from './Card/Footer.svelte';
 </script>
 
@@ -21,7 +21,7 @@
             <span id="profession">{card.profession}</span>
         </div>
 
-        <SocialMedia links={card.links}/>
+        <Links links={card.links}/>
 
         <Footer />
     </div>
