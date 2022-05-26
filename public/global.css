@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root {
+	--primary: #5196fd;
+	--background: #31313a;
+	--mid-dark-background: #16161a;
+	--darker-background: #1c1c21;
+	--background-box-color: rgba(255, 255, 255, 0.05);
+	--text: #efefef;
+	--scroller-background: #555566;
+}
+
 html, body {
+	font-family: Poppins, sans-serif;
 	position: relative;
 	width: 100%;
 	height: 100%;
