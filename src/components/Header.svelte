@@ -17,7 +17,7 @@
     .head {
         padding: 0;
         margin: 20px 0 15px -10px;
-        grid-area: hdr;
+        grid-area: header;
         height: fit-content;
         height: -moz-fit-content;
         border-radius: var(--radius);

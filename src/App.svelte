@@ -28,7 +28,7 @@
         padding: 20px;
         display: grid;
         grid-template-columns:90px 0.8fr 1.2fr;
-        grid-template-areas:"hdr prf drw"
+        grid-template-areas:"header profile drawer"
     }
 </style>
 
