@@ -1,7 +1,9 @@
 export default {
+  name: 'services',
   pageTitle: 'Services',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/services.svg',
+
   footer: 'Fast and Reliable.',
   products: [
     {

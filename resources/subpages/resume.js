@@ -1,7 +1,9 @@
 export default {
+  name: 'resume',
   pageTitle: 'Resume',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/resume.svg',
+
   experience: [
     {
       title: 'Full stack developer',

@@ -1,7 +1,9 @@
 export default {
+  name: 'about',
   pageTitle: 'About',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/about.svg',
+
   greeting: 'Hello, I am Sheme Hamitaj.',
   description: 'Computer Engineer experienced in Robotics, Computer Vision, Embedded Systems, Desktop, Mobile & Web Apps. Currently working as a Full Stack Developer using Vue & NuxtJS on the front end and PHP & Laravel on the backend. Previous work history includes many industries starting from Sports Reporting to Photography & Videography, Acting, Translation etc.',
   birthYear: '1996',
