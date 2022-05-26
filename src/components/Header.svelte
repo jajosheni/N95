@@ -1,25 +1,25 @@
 <script>
-  import HeaderButton from '../shared/HeaderButton.svelte';
-  import subpages from '../../resources/subpages';
+  import Tabs from '../shared/Tabs.svelte';
+  import TabStore from '../stores/TabStore';
+
+  const handleTabChange = (e) => {
+    const name = e.detail;
+
+    TabStore.update(tabItems => {
+      let clonedTabs = [...tabItems];
+
+      clonedTabs.forEach(tab => {
+        tab.active = tab.name === name;
+      });
+
+      return clonedTabs;
+    });
+  };
 </script>
 
 <div class="head">
-    <ul>
-        {#each subpages as subpage}
-            <li>
-                <HeaderButton name={subpage.name}/>
-            <li>
-        {/each}
-    </ul>
+    <Tabs items={$TabStore} on:tabChange={handleTabChange}/>
 </div>
 
 <style>
-    .head {
-        padding: 0;
-        margin: 20px 0 15px -10px;
-        grid-area: header;
-        height: fit-content;
-        height: -moz-fit-content;
-        border-radius: var(--radius);
-    }
 </style>
