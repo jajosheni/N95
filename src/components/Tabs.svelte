@@ -21,6 +21,8 @@
     .tabs {
         margin: 15px 0;
         padding: 0;
+        user-select: none;
+        -webkit-user-select: none;
     }
 
     ul {
