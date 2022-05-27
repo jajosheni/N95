@@ -76,47 +76,47 @@ export default {
   skills: [
     {
       title: 'Coding',
-      barType: 'progress',
+      barType: 'line',
       icon: 'https://shemehamitaj.com/assets/images/code.svg',
       items: [
         {
           title: 'C/C++',
-          level: 8
+          level: 80
         },
         {
           title: 'Java/Android',
-          level: 8
+          level: 85
         },
         {
           title: 'Javascript',
-          level: 9
+          level: 92
         },
         {
           title: 'PHP',
-          level: 9
+          level: 87
         },
       ]
     },
     {
       title: 'Design',
-      barType: 'progress',
+      barType: 'line',
       icon: 'https://shemehamitaj.com/assets/images/design.svg',
       items: [
         {
           title: 'Web Design',
-          level: 8
+          level: 85
         },
         {
           title: 'Photoshop',
-          level: 9
+          level: 90
         },
         {
           title: 'After Effects',
-          level: 8
+          level: 80
         },
         {
           title: 'Premiere',
-          level: 7
+          level: 75
         },
       ]
     },
@@ -127,19 +127,19 @@ export default {
       items: [
         {
           title: 'Albanian',
-          level: 10
+          level: 100
         },
         {
           title: 'English',
-          level: 9
+          level: 96
         },
         {
           title: 'Turkish',
-          level: 9
+          level: 93
         },
         {
           title: 'Italian',
-          level: 6
+          level: 62
         }
       ]
     },
@@ -150,19 +150,19 @@ export default {
       items: [
         {
           title: 'Mobile Apps',
-          level: 9
+          level: 94
         },
         {
           title: 'Desktop Apps',
-          level: 9
+          level: 91
         },
         {
           title: 'Web Apps',
-          level: 10
+          level: 97
         },
         {
           title: 'Embedded',
-          level: 8
+          level: 85
         }
       ]
     }
