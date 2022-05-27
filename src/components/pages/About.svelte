@@ -35,10 +35,6 @@
 </div>
 
 <style>
-    .about-container {
-        margin: 30px;
-    }
-
     .description {
         color: var(--dim-text);
         font-family: Poppins, sans-serif;
