@@ -51,13 +51,13 @@ export default {
         title: 'IELTS academic',
         date: '14/07/2020',
         issuedBy: 'British Council',
-        description: 'English Proficiency C1 Certificate with a 7.65 out of 9.0 score.'
+        description: 'English Proficiency C1 Certificate with a 7.65 out of 9.0 score. Test taken in Istanbul, Turkey.'
       },
       {
         title: 'OBSS Code Master',
         date: '19/12/2019',
         issuedBy: 'OBSS',
-        description: 'A hackathon held at Kocaeli University by OBSS. Awarded 3rd place.'
+        description: 'A hackathon held at Kocaeli University by OBSS. Awarded 3rd place with a bonus of 1000TRY.'
       },
     ]
   },
