@@ -8,7 +8,7 @@
 </script>
 
 <div class="resume-container">
-    <div class="section">
+    <section>
         <Card>
             <Section item={resume.experience}>
                 <div>
@@ -18,9 +18,9 @@
                 </div>
             </Section>
         </Card>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
         <Card>
             <Section item={resume.education}>
                 <div>
@@ -30,9 +30,9 @@
                 </div>
             </Section>
         </Card>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
         <Card>
             <Section item={resume.certificatesAndAwards}>
                 <div>
@@ -42,11 +42,23 @@
                 </div>
             </Section>
         </Card>
-    </div>
+    </section>
+
+    <section>
+        <Card>
+            <Section item={resume.certificatesAndAwards}>
+                <div>
+                    {#each resume.certificatesAndAwards.data as award}
+                        <Award {award}/>
+                    {/each}
+                </div>
+            </Section>
+        </Card>
+    </section>
 </div>
 
 <style>
-    .section {
+    section {
         width: calc(50% - 5px);
     }
 
