@@ -15,7 +15,7 @@
 
 <style>
     .product {
-        width: 47.5%;
+        width: 48%;
     }
 
     .services-container {
