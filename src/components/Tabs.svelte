@@ -10,8 +10,8 @@
     <ul>
         {#each items as item (item.name)}
             <li class:active={item.active} on:click={() => dispatch('tabChange', item.name)}>
-                <img class="icon" src={item.icon} alt={item.name}>
-                <span>{item.name}</span>
+                <img class="icon" src={item.icon} alt={item.pageTitle}>
+                <span>{item.pageTitle}</span>
             </li>
         {/each}
     </ul>
