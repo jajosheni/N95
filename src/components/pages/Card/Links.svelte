@@ -26,7 +26,7 @@
     }
 
     .social-media > li:hover {
-        background-color: #5196fd;
+        background-color: var(--primary);
         background-blend-mode: screen;
         border-radius: var(--radius)
     }
