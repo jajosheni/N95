@@ -3,60 +3,76 @@ export default {
   pageTitle: 'Resume',
   icon: 'https://shemehamitaj.com/assets/images/resume.svg',
 
-  experience: [
-    {
-      title: 'Full stack developer',
-      start: '06/2021',
-      end: 'present',
-      company: 'circuly GmbH',
-      description: 'Working with an awesome international team to enable circular business models through SaaS.'
-    },
-    {
-      title: 'Robotics Developer',
-      start: '08/2019',
-      end: '08/2020',
-      company: 'Kocaeli University',
-      description: 'Work with a diverse team of electric and electronic engineers to create and develop AMR with natural navigation.'
-    },
-  ],
-  education: [
-    {
-      major: 'Computer engineering',
-      start: '09/2015',
-      end: '07/2020',
-      institute: 'Kocaeli University',
-      description: 'Bachelor\'s Degree from Computer Engineering Department at Kocaeli University, Turkey.'
-    },
-    {
-      major: 'Turkish preparatory school ',
-      start: '09/2014',
-      end: '08/2015',
-      institute: 'Kocaeli University',
-      description: 'Attended Turkish Language course at the Language Center located inside Kocaeli University, Turkey.'
-    },
-  ],
-  certificatesAndAwards: [
-    {
-      title: 'IELTS academic',
-      date: '14/07/2020',
-      issuedBy: 'British Council',
-      description: 'English Proficiency C1 Certificate with a 7.65 out of 9.0 score.'
-    },
-    {
-      title: 'OBSS Code Master',
-      date: '19/12/2019',
-      issuedBy: 'OBSS',
-      description: 'A hackathon held at Kocaeli University by OBSS. Awarded 3rd place.'
-    },
-  ],
-  academic: [
-    {
-      title: 'A Survey of ROS Security',
-      date: '10/07/2019',
-      issuedBy: 'IWW2019',
-      description: 'Published a conference paper at 10th International Conference on Image Processing, Wavelet and Applications.'
-    },
-  ],
+  experience: {
+    title: 'Experience',
+    icon: 'https://shemehamitaj.com/assets/images/experience.svg',
+    data: [
+      {
+        title: 'Full stack developer',
+        start: '06/2021',
+        end: 'present',
+        company: 'circuly GmbH',
+        description: 'Working with an awesome international team to enable circular business models through SaaS.'
+      },
+      {
+        title: 'Robotics Developer',
+        start: '08/2019',
+        end: '08/2020',
+        company: 'Kocaeli University',
+        description: 'Work with a diverse team of electric and electronic engineers to create and develop AMR with natural navigation.'
+      },
+    ]
+  },
+  education: {
+    title: 'Education',
+    icon: 'https://shemehamitaj.com/assets/images/education.svg',
+    data: [
+      {
+        major: 'Computer engineering',
+        start: '09/2015',
+        end: '07/2020',
+        institute: 'Kocaeli University',
+        description: 'Bachelor\'s Degree from Computer Engineering Department at Kocaeli University, Turkey.'
+      },
+      {
+        major: 'Turkish preparatory school ',
+        start: '09/2014',
+        end: '08/2015',
+        institute: 'Kocaeli University',
+        description: 'Attended Turkish Language course at the Language Center located inside Kocaeli University, Turkey.'
+      },
+    ]
+  },
+  certificatesAndAwards: {
+    title: 'Certificates/Awards',
+    icon: 'https://shemehamitaj.com/assets/images/award.svg',
+    data: [
+      {
+        title: 'IELTS academic',
+        date: '14/07/2020',
+        issuedBy: 'British Council',
+        description: 'English Proficiency C1 Certificate with a 7.65 out of 9.0 score.'
+      },
+      {
+        title: 'OBSS Code Master',
+        date: '19/12/2019',
+        issuedBy: 'OBSS',
+        description: 'A hackathon held at Kocaeli University by OBSS. Awarded 3rd place.'
+      },
+    ]
+  },
+  academic: {
+    title: 'Academic',
+    icon: 'https://shemehamitaj.com/assets/images/academic.svg',
+    data: [
+      {
+        title: 'A Survey of ROS Security',
+        date: '10/07/2019',
+        issuedBy: 'IWW2019',
+        description: 'Published a conference paper at 10th International Conference on Image Processing, Wavelet and Applications.'
+      },
+    ]
+  },
   skills: [
     {
       title: 'Coding',
