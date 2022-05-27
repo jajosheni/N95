@@ -1,6 +1,7 @@
 export default {
   name: 'services', // do not change
   pageTitle: 'Services',
+  header: 'Fast and Reliable',
   icon: 'https://shemehamitaj.com/assets/images/services.svg',
 
   footer: 'Fast and Reliable.',

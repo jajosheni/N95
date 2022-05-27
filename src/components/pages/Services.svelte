@@ -4,7 +4,7 @@
 </script>
 
 
-<span class="block bold mb-2">Fast and Reliable.</span>
+<span class="block bold mb-2">{services.header}</span>
 <div class="services-container">
     {#each services.products as product}
         <div class="product mb-3">
