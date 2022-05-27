@@ -1,6 +1,6 @@
 export default {
-  name: 'contact',
-  pageTitle: 'Drop a Line',
+  name: 'contact', // do not change
+  pageTitle: 'Contact',
   hidePageTitle: false,
   icon: 'https://shemehamitaj.com/assets/images/plane.svg',
 

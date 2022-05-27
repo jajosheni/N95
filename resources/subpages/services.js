@@ -1,5 +1,5 @@
 export default {
-  name: 'services',
+  name: 'services', // do not change
   pageTitle: 'Services',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/services.svg',

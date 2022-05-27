@@ -1,5 +1,5 @@
 export default {
-  name: 'resume',
+  name: 'resume', // do not change
   pageTitle: 'Resume',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/resume.svg',

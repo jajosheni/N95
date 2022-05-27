@@ -1,5 +1,5 @@
 export default {
-  name: 'about',
+  name: 'about', // do not change
   pageTitle: 'About',
   hidePageTitle: true,
   icon: 'https://shemehamitaj.com/assets/images/about.svg',
