@@ -5,6 +5,7 @@
   import Experience from '../components/pages/Resume/Experience.svelte';
   import Education from '../components/pages/Resume/Education.svelte';
   import Award from '../components/pages/Resume/Award.svelte';
+  import Academic from '../components/pages/Resume/Academic.svelte';
 </script>
 
 <div class="resume-container">
@@ -46,10 +47,10 @@
 
     <section>
         <Card>
-            <Section item={resume.certificatesAndAwards}>
+            <Section item={resume.academic}>
                 <div>
-                    {#each resume.certificatesAndAwards.data as award}
-                        <Award {award}/>
+                    {#each resume.academic.data as academic}
+                        <Academic {academic}/>
                     {/each}
                 </div>
             </Section>
