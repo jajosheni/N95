@@ -27,7 +27,9 @@
     <span class="block mt-3 bold mb-3">Hobbies</span>
     <div>
         {#each about.hobbies as hobby}
-            <Hobby {hobby}/>
+            <div class="mb-1">
+                <Hobby {hobby}/>
+            </div>
         {/each}
     </div>
 </div>
