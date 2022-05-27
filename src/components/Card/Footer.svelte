@@ -39,7 +39,7 @@
         cursor: pointer;
         text-transform: uppercase;
         color: var(--text);
-        font-family: Poppins, sans-serif;
+        font-family: var(--font-family);
         font-size: 0.95em;
         width: inherit;
     }

@@ -15,10 +15,12 @@
     --text: #efefef;
     --scroller-background: #555566;
     --radius: 7px;
+
+    --font-family: Poppins, sans-serif;
 }
 
 html, body {
-    font-family: Poppins, sans-serif;
+    font-family: var(--font-family);
     font-weight: 500;
     position: relative;
     width: 100%;
