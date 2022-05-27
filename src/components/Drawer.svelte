@@ -1,9 +1,26 @@
 <script>
+  import About from './pages/About.svelte';
+  import Resume from './pages/Resume.svelte';
+  import Services from './pages/Services.svelte';
+  import Contact from './pages/Contact.svelte';
+  import TabStore from '../stores/TabStore';
 
+  const components = {
+    'about': About,
+    'resume': Resume,
+    'services': Services,
+    'contact': Contact,
+  };
 </script>
 
 <div class="grid-item-drawer">
+    <a id="info-anchor"></a>
 
+    {#each $TabStore as item (item.name)}
+        {#if item.active}
+            <svelte:component this={components[item.name]}/>
+        {/if}
+    {/each}
 </div>
 
 <style>
