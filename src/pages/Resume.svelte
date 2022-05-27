@@ -6,6 +6,7 @@
   import Education from '../components/pages/Resume/Education.svelte';
   import Award from '../components/pages/Resume/Award.svelte';
   import Academic from '../components/pages/Resume/Academic.svelte';
+  import ProgressBar from '../components/ProgressBar.svelte';
 </script>
 
 <div class="resume-container">
@@ -56,6 +57,25 @@
             </Section>
         </Card>
     </section>
+
+    <span class="block bold mt-2 mb-2 " style="width: 100%">Skills</span>
+
+    {#each resume.skills as skillData}
+        <section>
+            <Card>
+                <Section item={skillData}>
+                    <div>
+                        {#each skillData.items as skill}
+                            <div class="mt-2">
+                                <span>{skill.title}</span>
+                                <ProgressBar type={skillData.barType} level={skill.level}/>
+                            </div>
+                        {/each}
+                    </div>
+                </Section>
+            </Card>
+        </section>
+    {/each}
 </div>
 
 <style>
