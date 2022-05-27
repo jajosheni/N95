@@ -33,6 +33,6 @@
         box-shadow: 3px 0 10px var(--shadow-color) inset;
         border-radius: 0 var(--radius) var(--radius) 0;
         overflow-y: scroll;
-        padding: 30px;
+        padding: 30px 20px 30px 30px;
     }
 </style>
