@@ -36,6 +36,10 @@ html, body {
     padding: 0;
 }
 
+.block {
+    display: block;
+}
+
 img {
     object-fit: contain;
     width: 100%;
