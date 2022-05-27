@@ -1,5 +1,5 @@
 <script>
-  export let links;
+  export let links = [];
 </script>
 
 <ul class="social-media mt-1">

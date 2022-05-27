@@ -1,5 +1,8 @@
 <script>
-  export let field;
+  export let field = {
+    name: '',
+    value: ''
+  };
 </script>
 
 <div class="field">

@@ -1,7 +1,7 @@
 <script>
   import Field from './Field.svelte';
 
-  export let fields;
+  export let fields = [];
 </script>
 
 <div class="fields">

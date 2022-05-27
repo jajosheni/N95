@@ -1,5 +1,5 @@
 <script>
-  export let quote;
+  export let quote = '';
 </script>
 
 <div class="quote">

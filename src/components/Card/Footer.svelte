@@ -1,6 +1,6 @@
 <script>
-  export let cv;
-  export let email;
+  export let cv = '';
+  export let email = '';
 </script>
 
 <div class="bottom-buttons">
