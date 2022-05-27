@@ -20,7 +20,9 @@
     <span class="block bold">{about.greeting}</span>
     <p class="description mb-3">{about.description}</p>
 
-    <Fields {fields}/>
+    <div class="mb-3">
+        <Fields {fields}/>
+    </div>
 
     <Quote quote="{about.quote}"/>
 
