@@ -11,10 +11,9 @@
     </div>
 {:else if type === 'dots'}
     <div class="dots-container mt-1">
-        <div class="dots-percentage" style="width:{percentage}%;"></div>
         <div class="dots">
-            {#each Array(16) as _}
-                <div></div>
+            {#each Array(20) as _, i}
+                <div class="dot" class:active={(level) > (5 * i)}></div>
             {/each}
         </div>
     </div>
@@ -41,19 +40,14 @@
         justify-content: space-between;
     }
 
-    .dots > div {
+    .dot {
         width: var(--radius);
         height: var(--radius);
         background-color: var(--background);
         border-radius: var(--radius);
     }
 
-    .dots-percentage {
-        height: var(--radius);
-        position: absolute;
-        left: 0;
-        top: 0;
+    .active {
         background-color: var(--primary);
-        border-radius: var(--radius);
     }
 </style>
