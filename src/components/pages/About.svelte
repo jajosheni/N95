@@ -1,7 +1,6 @@
 <script>
   import about from '../../../resources/subpages/about';
   import Fields from './components/Fields.svelte';
-  import Hobbies from './components/Hobbies.svelte';
   import Quote from './components/Quote.svelte';
   import Hobby from './components/Hobby.svelte';
 
