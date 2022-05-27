@@ -78,6 +78,10 @@ html, body {
     font-weight: 600;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 img {
     object-fit: contain;
     width: 100%;

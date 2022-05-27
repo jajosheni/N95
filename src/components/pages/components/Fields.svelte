@@ -4,7 +4,7 @@
   export let fields = [];
 </script>
 
-<div class="fields">
+<div class="fields uppercase">
     {#each fields as field, i}
         {#if i % 2 === 0}
             <div class="field-group mr-1">
@@ -18,7 +18,6 @@
 <style>
     .fields {
         width: 100%;
-        text-transform: uppercase;
         font-size: 0.9em;
         display: flex;
         justify-content: space-between;

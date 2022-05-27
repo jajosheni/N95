@@ -7,7 +7,7 @@
 </script>
 
 <div class="tabs">
-    <ul>
+    <ul class="uppercase">
         {#each items as item (item.name)}
             <li class:active={item.active} on:click={() => dispatch('tabChange', item.name)}>
                 <img class="icon" src={item.icon} alt={item.pageTitle}>
@@ -24,7 +24,6 @@
     }
 
     ul {
-        text-transform: uppercase;
         text-align: center;
         font-size: 0.75em;
         margin: 15px 0;

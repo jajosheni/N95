@@ -4,7 +4,7 @@
 </script>
 
 <div class="bottom-buttons">
-    <button class="btn download-cv" on:click={() => window.location.assign(cv.url)}>
+    <button class="btn download-cv uppercase" on:click={() => window.location.assign(cv.url)}>
         <span>CV</span>
         <img class="icon" src={cv.icon} alt="download cv">
     </button>
@@ -12,7 +12,7 @@
     <div class="splitter"></div>
 
     <button
-            class="btn email-me"
+            class="btn email-me uppercase"
             on:click={() => window.location.href = `mailto:${email.address}?subject=Hello`}
     >
         <span>e-mail</span>
@@ -37,7 +37,6 @@
         padding: 1rem 2rem;
         background: transparent;
         cursor: pointer;
-        text-transform: uppercase;
         color: var(--text);
         font-family: var(--font-family);
         font-size: 0.95em;
