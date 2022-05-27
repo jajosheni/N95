@@ -4,9 +4,9 @@
 
 <style>
     .card {
-        background: white;
+        background: var(--lighest-white-overlay);
         padding: 20px;
-        border-radius: 6px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: var(--radius);
+        box-shadow: 0 2px 4px var(--shadow-color);
     }
 </style>

@@ -32,7 +32,7 @@
         grid-area: profile;
         height: 72vh;
         min-height: 450px;
-        box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 -5px 10px var(--shadow-color);
         border-radius: var(--radius);
         position: relative;
         background: var(--card-background);

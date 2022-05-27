@@ -30,7 +30,7 @@
         background: var(--card-background);
         width: 100%;
         height: 67vh;
-        box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2) inset;
+        box-shadow: 3px 0 10px var(--shadow-color) inset;
         border-radius: 0 var(--radius) var(--radius) 0;
         overflow-y: scroll;
         padding-bottom: 10px;

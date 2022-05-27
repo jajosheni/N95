@@ -6,6 +6,7 @@
     --background: #31313a;
     --mid-dark-background: #16161a;
     --dark-background: #1c1c21;
+    --shadow-color: rgba(0, 0, 0, 0.2);
 
     --lighest-white-overlay: rgba(255, 255, 255, 0.05);
     --light-white-overlay: rgba(255, 255, 255, 0.3);
