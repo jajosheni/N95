@@ -27,7 +27,6 @@
         text-transform: uppercase;
         text-align: center;
         font-size: 0.75em;
-        color: var(--text);
         margin: 15px 0;
     }
 

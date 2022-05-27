@@ -66,7 +66,6 @@
     }
 
     .full-name {
-        color: var(--text);
         text-align: center;
         font-size: 30px;
     }
