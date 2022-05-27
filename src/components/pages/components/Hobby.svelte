@@ -10,7 +10,7 @@
 
 <Card>
     <div class="hobby-container">
-        <img class="icon mr-1" src={hobby.image} alt={hobby.title}>
+        <img class="s-50 mr-1" src={hobby.image} alt={hobby.title}>
         {hobby.title} - {hobby.description}
     </div>
 </Card>
@@ -19,10 +19,5 @@
     .hobby-container {
         display: flex;
         justify-content: space-between;
-    }
-
-    .icon {
-        width: 50px;
-        height: 50px;
     }
 </style>
