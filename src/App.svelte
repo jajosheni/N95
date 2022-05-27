@@ -1,7 +1,7 @@
 <script>
   import Background from './components/Background.svelte';
   import Header from './components/Header.svelte';
-  import Profile from './components/Profile.svelte';
+  import Profile from './pages/Profile.svelte';
   import Drawer from './components/Drawer.svelte';
   import {title, meta} from '../resources/miscellaneous';
 </script>

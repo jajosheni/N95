@@ -1,6 +1,6 @@
 <script>
-  import services from '../../../resources/subpages/services';
-  import Product from './components/Product.svelte';
+  import services from '../../resources/subpages/services';
+  import Product from '../components/pages/Product.svelte';
 </script>
 
 

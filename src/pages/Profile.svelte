@@ -1,7 +1,7 @@
 <script>
   import card from '../../resources/card';
-  import Links from './Card/Links.svelte';
-  import Footer from './Card/Footer.svelte';
+  import Links from '../components/pages/Card/Links.svelte';
+  import Footer from '../components/pages/Card/Footer.svelte';
 </script>
 
 <div class="grid-item-profile">

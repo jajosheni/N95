@@ -1,8 +1,8 @@
 <script>
-  import about from '../../../resources/subpages/about';
-  import Fields from './components/Fields.svelte';
-  import Quote from './components/Quote.svelte';
-  import Hobby from './components/Hobby.svelte';
+  import about from '../../resources/subpages/about';
+  import Fields from '../components/pages/Fields.svelte';
+  import Quote from '../components/pages/Quote.svelte';
+  import Hobby from '../components/pages/Hobby.svelte';
 
   const fields = [
     {

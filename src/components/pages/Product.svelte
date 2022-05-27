@@ -1,5 +1,5 @@
 <script>
-  import Card from '../../../shared/Card.svelte';
+  import Card from '../../shared/Card.svelte';
 
   export let product = {
     title: '',

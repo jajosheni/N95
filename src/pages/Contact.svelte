@@ -1,7 +1,7 @@
 <script>
-  import contact from '../../../resources/subpages/contact';
-  import Fields from './components/Fields.svelte';
-  import Card from '../../shared/Card.svelte';
+  import contact from '../../resources/subpages/contact';
+  import Fields from '../components/pages/Fields.svelte';
+  import Card from '../shared/Card.svelte';
 
   const fields = [
     {name: 'address', value: contact.address},
