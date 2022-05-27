@@ -9,3 +9,4 @@ export const meta = [
     content: 'sheme,hamitaj,personal,site,developer,software,web,desktop,mobile,fast,reliable,resume,tirana,albania,github,pages,shqiperi,faqe,personale,tirane,zhvillues,programues,programe,profesional,sherbim'
   }
 ];
+export const landingPage = 'services';
