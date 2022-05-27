@@ -3,6 +3,7 @@
   import Section from '../components/pages/Resume/Section.svelte';
   import Card from '../shared/Card.svelte';
   import Experience from '../components/pages/Resume/Experience.svelte';
+  import Education from '../components/pages/Resume/Education.svelte';
 </script>
 
 <div class="resume-container">
@@ -12,6 +13,18 @@
                 <div>
                     {#each resume.experience.data as experience}
                         <Experience {experience}/>
+                    {/each}
+                </div>
+            </Section>
+        </Card>
+    </div>
+
+    <div class="section">
+        <Card>
+            <Section item={resume.education}>
+                <div>
+                    {#each resume.education.data as education}
+                        <Education {education}/>
                     {/each}
                 </div>
             </Section>
