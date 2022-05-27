@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root {
+    --primary: #5196fd;
+
+    --background: #31313a;
+    --mid-dark-background: #16161a;
+    --dark-background: #1c1c21;
+
+    --lighest-white-overlay: rgba(255, 255, 255, 0.05);
+    --light-white-overlay: rgba(255, 255, 255, 0.3);
+    --white-overlay: rgba(255, 255, 255, 0.5);
+
+    --card-background: rgba(49, 49, 58, 0.75);
+    --text: #efefef;
+    --dim-text: #cacaca;
+    --scroller-background: #555566;
+    --radius: 7px;
+
+    --font-family: Poppins, sans-serif;
+}
