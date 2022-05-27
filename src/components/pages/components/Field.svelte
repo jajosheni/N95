@@ -8,7 +8,6 @@
 <div class="field">
     <span class="mr-2">{field.name}:</span>
 
-
     <span class="right">
         {#if field.name === 'email'}
             <a class="lowercase" href="mailto:{field.value}">{field.value}</a>
