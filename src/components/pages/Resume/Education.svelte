@@ -13,7 +13,7 @@
         <span class="duration">{education.start} - {education.end}</span>
     </div>
     <span class="block uppercase">{education.major}</span>
-    <span class="block company">{education.institute}</span>
+    <span class="block institute">{education.institute}</span>
     <div class="description">{education.description}</div>
 </div>
 
@@ -33,7 +33,7 @@
         padding: 1px 6px;
     }
 
-    .company {
+    .institute {
         font-size: 12px;
         color: var(--dark-text)
     }

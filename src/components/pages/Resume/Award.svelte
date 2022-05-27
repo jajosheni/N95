@@ -12,7 +12,7 @@
         <span class="duration">{award.date}</span>
     </div>
     <span class="block uppercase">{award.title}</span>
-    <span class="block company">{award.issuedBy}</span>
+    <span class="block issued-by">{award.issuedBy}</span>
     <div class="description">{award.description}</div>
 </div>
 
@@ -32,7 +32,7 @@
         padding: 1px 6px;
     }
 
-    .company {
+    .issued-by {
         font-size: 12px;
         color: var(--dark-text)
     }
