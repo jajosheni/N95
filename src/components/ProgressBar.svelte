@@ -10,7 +10,7 @@
         <div class="percentage" style="width:{percentage}%;"></div>
     </div>
 {:else if type === 'dots'}
-    <div class="dots-container mt-1">
+    <div class="mt-1">
         <div class="dots">
             {#each Array(20) as _, i}
                 <div class="dot" class:active={(level) > (5 * i)}></div>
@@ -29,10 +29,6 @@
 
     .percentage {
         background-color: var(--primary);
-    }
-
-    .dots-container {
-        position: relative;
     }
 
     .dots {
