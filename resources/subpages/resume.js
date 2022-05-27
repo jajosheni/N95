@@ -131,11 +131,11 @@ export default {
         },
         {
           title: 'English',
-          level: 96
+          level: 94
         },
         {
           title: 'Turkish',
-          level: 93
+          level: 89
         },
         {
           title: 'Italian',
