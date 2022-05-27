@@ -14,10 +14,14 @@
     </div>
     <span class="block uppercase">{experience.title}</span>
     <span class="block company">{experience.company}</span>
-    <span class="description">{experience.description}</span>
+    <div class="description">{experience.description}</div>
 </div>
 
 <style>
+    .experience {
+        min-height: 180px;
+    }
+
     .experience:last-of-type {
         margin-bottom: 0;
     }
@@ -35,7 +39,6 @@
     }
 
     .description {
-        font-size: 14px;
-        text-align: justify-all
+        font-size: 0.9em;
     }
 </style>
