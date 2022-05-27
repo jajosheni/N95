@@ -2,7 +2,7 @@
   export let links;
 </script>
 
-<ul class="social-media">
+<ul class="social-media mt-1">
     {#each links as link}
         <li>
             <a href={link.url} target="_blank">
@@ -14,7 +14,6 @@
 
 <style>
     .social-media {
-        margin-top: 10px;
         text-align: center
     }
 

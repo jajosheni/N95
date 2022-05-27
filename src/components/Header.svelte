@@ -17,13 +17,12 @@
   };
 </script>
 
-<div class="grid-item-header">
+<div class="grid-item-header mt-2">
     <Tabs items={$TabStore} on:tabChange={handleTabChange}/>
 </div>
 
 <style>
     .grid-item-header {
-        margin-top: 20px;
         grid-area: header;
         border-radius: var(--radius);
         background: var(--card-background);

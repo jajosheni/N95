@@ -13,7 +13,7 @@
   };
 </script>
 
-<div class="grid-item-drawer">
+<div class="grid-item-drawer mb-1 mt-2">
     <a id="info-anchor"></a>
 
     {#each $TabStore as item (item.name)}
@@ -33,8 +33,6 @@
         box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2) inset;
         border-radius: 0 var(--radius) var(--radius) 0;
         overflow-y: scroll;
-        margin-top: 20px;
-        margin-bottom: 10px;
         padding-bottom: 10px;
     }
 </style>
