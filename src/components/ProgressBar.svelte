@@ -13,7 +13,7 @@
     <div class="dots-container mt-1">
         <div class="dots-percentage" style="width:{percentage}%;"></div>
         <div class="dots">
-            {#each Array(12) as _}
+            {#each Array(16) as _}
                 <div></div>
             {/each}
         </div>
@@ -42,14 +42,14 @@
     }
 
     .dots > div {
-        width: 11px;
-        height: 11px;
+        width: var(--radius);
+        height: var(--radius);
         background-color: var(--background);
         border-radius: var(--radius);
     }
 
     .dots-percentage {
-        height: 10px;
+        height: var(--radius);
         position: absolute;
         left: 0;
         top: 0;
