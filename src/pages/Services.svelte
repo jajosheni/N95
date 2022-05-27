@@ -7,7 +7,7 @@
 <span class="block bold mb-2">{services.header}</span>
 <div class="services-container">
     {#each services.products as product}
-        <div class="product mb-3">
+        <div class="product">
             <Product {product}/>
         </div>
     {/each}
@@ -15,12 +15,13 @@
 
 <style>
     .product {
-        width: 48%;
+        width: calc(50% - 15px);
     }
 
     .services-container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 30px;
     }
 </style>
