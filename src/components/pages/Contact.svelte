@@ -26,9 +26,9 @@
 </div>
 
 <style>
-    .map:first-child {
+    :global(.map > iframe) {
         width: 100%;
-        height: 30vh;
+        height: 35vh;
         border: 0;
     }
 </style>
