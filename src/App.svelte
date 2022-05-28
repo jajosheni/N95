@@ -39,5 +39,37 @@
         grid-template-columns:90px 10px 0.8fr 1.2fr;
         grid-template-areas:"header separator profile drawer"
     }
+
+    @media only screen and (max-width: 1130px) and (min-width: 700px) {
+        main {
+            padding: 1vh 6vw;
+            max-width: 900px
+        }
+
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 90px 10px auto;
+            grid-template-rows: auto auto;
+            grid-template-areas: "header separator profile"
+                                 "... ... drawer"
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        main {
+            padding: 0;
+            height: 100vh;
+            max-width: 100%
+        }
+
+        .container {
+            padding: 0;
+            display: grid;
+            grid-template-columns:auto;
+            grid-template-rows:auto auto auto;
+            grid-template-areas:"header" "profile" "drawer"
+        }
+    }
 </style>
 
