@@ -14,8 +14,6 @@
 </script>
 
 <div class="grid-item-drawer mb-1 mt-2">
-    <a id="info-anchor"></a>
-
     {#each $TabStore as item (item.name)}
         {#if item.active}
             <svelte:component this={components[item.name]}/>
