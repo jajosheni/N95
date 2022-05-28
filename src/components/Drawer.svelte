@@ -41,6 +41,7 @@
             border-radius: var(--radius);
             padding: 30px 30px 0;
             margin-bottom: 0;
+            overflow-y: initial;
         }
     }
 </style>

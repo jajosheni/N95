@@ -43,7 +43,7 @@
 
     @media only screen and (max-width: 1130px) and (min-width: 700px) {
         main {
-            padding: 1vh 6vw;
+            padding: 1vh 2vw;
             max-width: 900px
         }
 

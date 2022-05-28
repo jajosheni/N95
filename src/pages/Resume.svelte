@@ -89,4 +89,16 @@
         flex-wrap: wrap;
         gap: 10px;
     }
+
+
+    @media only screen and (max-width: 900px) {
+        section {
+            width: 100%;
+        }
+
+        .resume-container {
+            column-gap: 0;
+            row-gap: 10px;
+        }
+    }
 </style>
