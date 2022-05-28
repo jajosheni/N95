@@ -18,6 +18,10 @@ a {
     color: var(--text);
 }
 
+.primary-color {
+    color: var(--primary);
+}
+
 .block {
     display: block;
 }
@@ -88,21 +92,6 @@ a {
 
 .lowercase {
     text-transform: lowercase;
-}
-
-.s-20 {
-    width: 20px;
-    height: 20px;
-}
-
-.s-25 {
-    width: 25px;
-    height: 25px;
-}
-
-.s-50 {
-    width: 50px;
-    height: 50px;
 }
 
 img {
