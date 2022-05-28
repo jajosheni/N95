@@ -22,6 +22,10 @@ a {
     color: var(--primary);
 }
 
+.text-color {
+    color: var(--text);
+}
+
 .block {
     display: block;
 }
