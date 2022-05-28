@@ -6,7 +6,7 @@
     {#each links as link}
         <li class="mr-1">
             <a href={link.url} target="_blank">
-                <i class="mdi mdi-24px {link.icon} mdi-light"></i>
+                <i class="mdi mdi-24px {link.icon} text-color"></i>
             </a>
         </li>
     {/each}

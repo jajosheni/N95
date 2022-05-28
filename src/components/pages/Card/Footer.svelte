@@ -6,7 +6,7 @@
 <div class="bottom-buttons">
     <button class="btn download-cv uppercase" on:click={() => window.location.assign(cv.url)}>
         <span>CV</span>
-        <i class="mdi mdi-18px ml-1 {cv.icon} mdi-light"></i>
+        <i class="mdi mdi-18px ml-1 {cv.icon} text-color"></i>
     </button>
 
     <div class="splitter"></div>
@@ -16,7 +16,7 @@
             on:click={() => window.location.href = `mailto:${email.address}?subject=Hello`}
     >
         <span>e-mail</span>
-        <i class="mdi mdi-18px ml-1 {email.icon} mdi-light"></i>
+        <i class="mdi mdi-18px ml-1 {email.icon} text-color"></i>
     </button>
 </div>
 
