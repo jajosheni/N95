@@ -28,4 +28,11 @@
     .field-group:last-of-type {
         margin-right: 0;
     }
+
+    @media only screen and (max-width: 700px) {
+        .field-group {
+            width: 100%;
+            margin: 0;
+        }
+    }
 </style>
