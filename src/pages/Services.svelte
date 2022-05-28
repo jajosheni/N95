@@ -24,4 +24,16 @@
         flex-wrap: wrap;
         gap: 30px;
     }
+
+
+    @media only screen and (max-width: 850px) {
+        .product {
+            width: 100%;
+        }
+
+        .services-container {
+            column-gap: 0;
+            row-gap: 10px;
+        }
+    }
 </style>

@@ -90,7 +90,6 @@
         gap: 10px;
     }
 
-
     @media only screen and (max-width: 900px) {
         section {
             width: 100%;
