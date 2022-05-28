@@ -3,14 +3,14 @@
 
   export let hobby = {
     title: '',
-    image: '',
+    icon: '',
     description: ''
   };
 </script>
 
 <Card>
     <div class="hobby-container">
-        <img class="s-50 mr-1" src={hobby.image} alt={hobby.title}>
+        <img class="s-50 mr-1" src={hobby.icon} alt={hobby.title}>
         {hobby.title} - {hobby.description}
     </div>
 </Card>
