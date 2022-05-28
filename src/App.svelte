@@ -3,10 +3,11 @@
   import Header from './components/Header.svelte';
   import Profile from './pages/Profile.svelte';
   import Drawer from './components/Drawer.svelte';
-  import {title, meta} from '../resources/miscellaneous';
+  import {favicon, title, meta} from '../resources/miscellaneous';
 </script>
 
 <svelte:head>
+    <link rel='icon' type='image/png' href={favicon}>
     <title>{title}</title>
 
     {#each meta as m (m.name)}
