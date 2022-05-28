@@ -10,72 +10,82 @@
 </script>
 
 <div class="resume-container">
-    <section>
-        <Card>
-            <Section item={resume.experience}>
-                <div>
-                    {#each resume.experience.data as experience}
-                        <Experience {experience}/>
-                    {/each}
-                </div>
-            </Section>
-        </Card>
-    </section>
-
-    <section>
-        <Card>
-            <Section item={resume.education}>
-                <div>
-                    {#each resume.education.data as education}
-                        <Education {education}/>
-                    {/each}
-                </div>
-            </Section>
-        </Card>
-    </section>
-
-    <section>
-        <Card>
-            <Section item={resume.certificatesAndAwards}>
-                <div>
-                    {#each resume.certificatesAndAwards.data as award}
-                        <Award {award}/>
-                    {/each}
-                </div>
-            </Section>
-        </Card>
-    </section>
-
-    <section>
-        <Card>
-            <Section item={resume.academic}>
-                <div>
-                    {#each resume.academic.data as academic}
-                        <Academic {academic}/>
-                    {/each}
-                </div>
-            </Section>
-        </Card>
-    </section>
-
-    <span class="block bold mt-2 mb-2 " style="width: 100%">Skills</span>
-
-    {#each resume.skills as skillData}
+    {#if !!resume.experience}
         <section>
             <Card>
-                <Section item={skillData}>
+                <Section item={resume.experience}>
                     <div>
-                        {#each skillData.items as skill}
-                            <div class="mt-2">
-                                <span>{skill.title}</span>
-                                <ProgressBar type={skillData.barType} level={skill.level}/>
-                            </div>
+                        {#each resume.experience.data as experience}
+                            <Experience {experience}/>
                         {/each}
                     </div>
                 </Section>
             </Card>
         </section>
-    {/each}
+    {/if}
+
+    {#if !!resume.education}
+        <section>
+            <Card>
+                <Section item={resume.education}>
+                    <div>
+                        {#each resume.education.data as education}
+                            <Education {education}/>
+                        {/each}
+                    </div>
+                </Section>
+            </Card>
+        </section>
+    {/if}
+
+    {#if !!resume.certificatesAndAwards}
+        <section>
+            <Card>
+                <Section item={resume.certificatesAndAwards}>
+                    <div>
+                        {#each resume.certificatesAndAwards.data as award}
+                            <Award {award}/>
+                        {/each}
+                    </div>
+                </Section>
+            </Card>
+        </section>
+    {/if}
+
+    {#if !!resume.academic}
+        <section>
+            <Card>
+                <Section item={resume.academic}>
+                    <div>
+                        {#each resume.academic.data as academic}
+                            <Academic {academic}/>
+                        {/each}
+                    </div>
+                </Section>
+            </Card>
+        </section>
+    {/if}
+
+    {#if !!resume.skills}
+        <span class="block bold mt-2 mb-2 " style="width: 100%">Skills</span>
+
+        {#each resume.skills as skillData}
+            <section>
+                <Card>
+                    <Section item={skillData}>
+                        <div>
+                            {#each skillData.items as skill}
+                                <div class="mt-2">
+                                    <span>{skill.title}</span>
+                                    <ProgressBar type={skillData.barType} level={skill.level}/>
+                                </div>
+                            {/each}
+                        </div>
+                    </Section>
+                </Card>
+            </section>
+        {/each}
+    {/if}
 </div>
 
 <style>

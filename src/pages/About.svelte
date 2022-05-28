@@ -26,14 +26,16 @@
 
     <Quote quote="{about.quote}"/>
 
-    <span class="block mt-3 bold mb-3">Hobbies</span>
-    <div>
-        {#each about.hobbies as hobby}
-            <div class="mb-1">
-                <Hobby {hobby}/>
-            </div>
-        {/each}
-    </div>
+    {#if !!about.hobbies}
+        <span class="block mt-3 bold mb-3">Hobbies</span>
+        <div>
+            {#each about.hobbies as hobby}
+                <div class="mb-1">
+                    <Hobby {hobby}/>
+                </div>
+            {/each}
+        </div>
+    {/if}
 </div>
 
 <style>
