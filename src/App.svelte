@@ -31,7 +31,7 @@
         width: 100%;
         height: 85vh;
         max-width: 1400px;
-        min-width: 372px;
+        min-width: 360px;
     }
 
     .container {
@@ -59,7 +59,7 @@
 
     @media only screen and (max-width: 700px) {
         main {
-            padding: 0 20px;
+            padding: 0 10px;
             height: 100vh;
             max-width: 100%
         }
