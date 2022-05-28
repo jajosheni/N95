@@ -58,7 +58,7 @@
 
     @media only screen and (max-width: 700px) {
         main {
-            padding: 0;
+            padding: 0 20px;
             height: 100vh;
             max-width: 100%
         }
@@ -67,8 +67,8 @@
             padding: 0;
             display: grid;
             grid-template-columns:auto;
-            grid-template-rows:auto auto auto;
-            grid-template-areas:"header" "profile" "drawer"
+            grid-template-rows:90px 10px auto auto;
+            grid-template-areas:"header" "separator" "profile" "drawer"
         }
     }
 </style>
