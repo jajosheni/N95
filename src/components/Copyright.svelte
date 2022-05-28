@@ -1,6 +1,6 @@
 <div class="template-footer">
     <i class="mdi mdi-copyright text-color"></i>
-    <a href="https://github.com/jajosheni">jajosheni</a>
+    <a href="https://github.com/jajosheni/N95">N95 Template</a>
 </div>
 
 <style>
