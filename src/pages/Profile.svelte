@@ -18,7 +18,7 @@
         </div>
 
         <div class="subtitle">
-            <span id="profession">{card.profession}</span>
+            <span class="block primary-color" id="profession">{card.profession}</span>
         </div>
 
         <Links links={card.links}/>
@@ -73,10 +73,5 @@
     .subtitle {
         text-align: center;
         font-size: 0.95em;
-    }
-
-    .subtitle > span {
-        display: block;
-        color: var(--primary)
     }
 </style>

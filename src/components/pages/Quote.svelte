@@ -5,7 +5,7 @@
 <div class="quote">
     <span class="left mt-2" style="margin-left: -10px">"</span>
     <blockquote>{quote}</blockquote>
-    <span class="right mt-3 mr-1">"</span>
+    <span class="right mt-3 mr-1 primary-color">"</span>
 </div>
 
 <style>
@@ -15,7 +15,6 @@
     }
 
     .quote > span {
-        color: var(--primary);
         font-size: 4em;
         font-style: italic;
         line-height: 0
