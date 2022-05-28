@@ -3,7 +3,7 @@
 </script>
 
 <div class="quote">
-    <span class="left mt-2" style="margin-left: -10px">"</span>
+    <span class="left mt-2 primary-color" style="margin-left: -10px">"</span>
     <blockquote>{quote}</blockquote>
     <span class="right mt-3 mr-1 primary-color">"</span>
 </div>
