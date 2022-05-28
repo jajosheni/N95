@@ -20,7 +20,6 @@
 <style>
     .tabs {
         margin: 15px 0;
-        padding: 0;
         user-select: none;
         -webkit-user-select: none;
     }
@@ -29,6 +28,8 @@
         text-align: center;
         font-size: 0.75em;
         margin: 15px 0;
+        display: flex;
+        flex-direction: column;
     }
 
     li {
@@ -46,6 +47,17 @@
         color: var(--primary);
         background-color: var(--dark-background);
         background-blend-mode: screen
+    }
+
+    @media only screen and (max-width: 700px) {
+        .tabs {
+            margin: 0 15px;
+        }
+
+        ul {
+            margin: 0;
+            flex-direction: row;
+        }
     }
 
 </style>

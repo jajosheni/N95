@@ -29,4 +29,10 @@
         width: 100%;
         height: fit-content;
     }
+
+    @media only screen and (max-width: 700px) {
+        .grid-item-header {
+            margin-top: 12px;
+        }
+    }
 </style>
