@@ -30,7 +30,8 @@
         padding: 10vh 2vw;
         width: 100%;
         height: 85vh;
-        max-width: 1400px
+        max-width: 1400px;
+        min-width: 372px;
     }
 
     .container {
