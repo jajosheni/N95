@@ -10,7 +10,7 @@
 
 <Card>
     <div class="hobby-container">
-        <img class="s-50 mr-1" src={hobby.icon} alt={hobby.title}>
+        <i class="mdi mdi-48px {hobby.icon} primary-color mr-1"></i>
         {hobby.title} - {hobby.description}
     </div>
 </Card>

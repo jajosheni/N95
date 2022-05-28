@@ -10,7 +10,7 @@
     <ul class="uppercase">
         {#each items as item (item.name)}
             <li class:active={item.active} on:click={() => dispatch('tabChange', item.name)}>
-                <img class="s-25" src={item.icon} alt={item.pageTitle}>
+                <i class="mdi mdi-24px {item.icon} mdi-light"></i>
                 <span>{item.pageTitle}</span>
             </li>
         {/each}

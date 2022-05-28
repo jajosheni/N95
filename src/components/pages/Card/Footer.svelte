@@ -6,7 +6,7 @@
 <div class="bottom-buttons">
     <button class="btn download-cv uppercase" on:click={() => window.location.assign(cv.url)}>
         <span>CV</span>
-        <img class="s-20 ml-1" src={cv.icon} alt="download cv">
+        <i class="mdi mdi-18px ml-1 {cv.icon} mdi-light"></i>
     </button>
 
     <div class="splitter"></div>
@@ -16,7 +16,7 @@
             on:click={() => window.location.href = `mailto:${email.address}?subject=Hello`}
     >
         <span>e-mail</span>
-        <img class="s-20 ml-1" src={email.icon} alt="send an email">
+        <i class="mdi mdi-18px ml-1 {email.icon} mdi-light"></i>
     </button>
 </div>
 
@@ -64,7 +64,7 @@
         background: linear-gradient(to bottom right, white, transparent, transparent)
     }
 
-    button > img,
+    button > i,
     button > span {
         vertical-align: middle;
     }

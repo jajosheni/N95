@@ -7,14 +7,14 @@
 
 <div>
     <div class="section-title">
-        <img class="s-50 mr-1" src={item.icon} alt={item.title}>
+        <i class="mdi mdi-48px {item.icon} mr-1 primary-color"></i>
         <span class="uppercase">{item.title}</span>
     </div>
     <slot></slot>
 </div>
 
 <style>
-    .section-title > img,
+    .section-title > i,
     .section-title > span {
         vertical-align: middle;
     }

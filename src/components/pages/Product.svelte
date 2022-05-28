@@ -11,7 +11,7 @@
 <Card>
     <div class="container">
         <div class="product-title mb-2">
-            <img class="s-50 mr-1" src={product.icon} alt={product.title}>
+            <i class="mdi mdi-48px {product.icon} mr-1 primary-color"></i>
             <span class="uppercase">{product.title}</span>
         </div>
         <span>{product.description}</span>
@@ -27,7 +27,7 @@
         justify-content: space-between;
     }
 
-    .product-title > img,
+    .product-title > i,
     .product-title > span {
         vertical-align: middle;
     }

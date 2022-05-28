@@ -4,9 +4,9 @@
 
 <ul class="social-media mt-1">
     {#each links as link}
-        <li>
+        <li class="mr-1">
             <a href={link.url} target="_blank">
-                <img src={link.icon} alt={link.title}>
+                <i class="mdi mdi-24px {link.icon} mdi-light"></i>
             </a>
         </li>
     {/each}
@@ -22,7 +22,7 @@
         display: inline-block;
         height: 36px;
         width: 36px;
-        padding: 7px 0;
+        padding: 6px;
     }
 
     .social-media > li:hover {
