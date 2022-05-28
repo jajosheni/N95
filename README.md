@@ -51,5 +51,6 @@ global.css
 index.html
 variables.css
 ```
-Copy all of them and paste them directly into your github repository.
-Done.
+Paste them directly into your GitHub repository and push.
+
+Done. 🎉🎉🎉
