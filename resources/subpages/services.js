@@ -2,28 +2,28 @@ export default {
   name: 'services', // do not change
   pageTitle: 'Services',
   header: 'Fast and Reliable',
-  icon: 'https://shemehamitaj.com/assets/images/services.svg',
+  icon: 'mdi-monitor-shimmer',
 
   footer: 'Fast and Reliable.',
   products: [
     {
       title: 'Mobile Apps',
-      icon: 'https://shemehamitaj.com/assets/images/mobileapp.svg',
+      icon: 'mdi-cellphone-cog',
       description: 'Developing memorable and unique mobile Android and IOS apps.'
     },
     {
       title: 'Desktop Apps',
-      icon: 'https://shemehamitaj.com/assets/images/desktopapp.svg',
+      icon: 'mdi-desktop-mac',
       description: 'Delivering high-end and secure desktop apps for Windows/Linux OS.'
     },
     {
       title: 'Web Apps',
-      icon: 'https://shemehamitaj.com/assets/images/webapp.svg',
+      icon: 'mdi-webpack',
       description: 'Sleek and fully-responsive websites for all kinds of screens and devices.'
     },
     {
       title: 'Graphic Design',
-      icon: 'https://shemehamitaj.com/assets/images/graphicdesign.svg',
+      icon: 'mdi-pencil-ruler',
       description: 'Turning ideas into perfect graphical contents for your business.'
     },
   ]

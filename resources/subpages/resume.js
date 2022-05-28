@@ -1,11 +1,11 @@
 export default {
   name: 'resume', // do not change
   pageTitle: 'Resume',
-  icon: 'https://shemehamitaj.com/assets/images/resume.svg',
+  icon: 'mdi-card-account-details',
 
   experience: {
     title: 'Experience',
-    icon: 'https://shemehamitaj.com/assets/images/experience.svg',
+    icon: 'mdi-tie',
     data: [
       {
         title: 'Full stack developer',
@@ -25,7 +25,7 @@ export default {
   },
   education: {
     title: 'Education',
-    icon: 'https://shemehamitaj.com/assets/images/education.svg',
+    icon: 'mdi-school',
     data: [
       {
         major: 'Computer engineering',
@@ -45,7 +45,7 @@ export default {
   },
   certificatesAndAwards: {
     title: 'Certificates/Awards',
-    icon: 'https://shemehamitaj.com/assets/images/award.svg',
+    icon: 'mdi-medal',
     data: [
       {
         title: 'IELTS academic',
@@ -63,7 +63,7 @@ export default {
   },
   academic: {
     title: 'Academic',
-    icon: 'https://shemehamitaj.com/assets/images/academic.svg',
+    icon: 'mdi-library-shelves',
     data: [
       {
         title: 'A Survey of ROS Security',
@@ -77,7 +77,7 @@ export default {
     {
       title: 'Coding',
       barType: 'line',
-      icon: 'https://shemehamitaj.com/assets/images/code.svg',
+      icon: 'mdi-console',
       items: [
         {
           title: 'C/C++',
@@ -100,7 +100,7 @@ export default {
     {
       title: 'Design',
       barType: 'line',
-      icon: 'https://shemehamitaj.com/assets/images/design.svg',
+      icon: 'mdi-brush-variant',
       items: [
         {
           title: 'Web Design',
@@ -123,7 +123,7 @@ export default {
     {
       title: 'Languages',
       barType: 'dots',
-      icon: 'https://shemehamitaj.com/assets/images/languages.svg',
+      icon: 'mdi-earth',
       items: [
         {
           title: 'Albanian',
@@ -146,7 +146,7 @@ export default {
     {
       title: 'Knowledge',
       barType: 'dots',
-      icon: 'https://shemehamitaj.com/assets/images/knowledge.svg',
+      icon: 'mdi-book-open-page-variant',
       items: [
         {
           title: 'Mobile Apps',
