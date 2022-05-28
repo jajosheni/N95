@@ -4,11 +4,9 @@
 
 <ul class="social-media mt-1">
     {#each links as link}
-        <li class="mr-1">
-            <a href={link.url} target="_blank">
+            <a class="mr-1" href={link.url} target="_blank">
                 <i class="mdi mdi-24px {link.icon} text-color"></i>
             </a>
-        </li>
     {/each}
 </ul>
 
@@ -17,15 +15,12 @@
         text-align: center
     }
 
-    .social-media > li {
-        margin: 0 1px;
+    .social-media > a {
         display: inline-block;
-        height: 36px;
-        width: 36px;
-        padding: 6px;
+        padding: 0 3px;
     }
 
-    .social-media > li:hover {
+    .social-media > a:hover {
         background-color: var(--primary);
         background-blend-mode: screen;
         border-radius: var(--radius)
