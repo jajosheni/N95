@@ -14,7 +14,7 @@
 </script>
 
 <div class="grid-item-drawer mb-1 mt-2">
-    <a id="drawer-anchor"></a>
+    <a id="drawer-anchor" style="display: inline"></a>
 
     {#each $TabStore as item (item.name)}
         {#if item.active}
