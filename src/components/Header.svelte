@@ -30,6 +30,13 @@
         height: fit-content;
     }
 
+    @media only screen and (max-width: 1130px) and (min-width: 700px) {
+        .grid-item-header {
+            position: fixed;
+            max-width: 90px;
+        }
+    }
+
     @media only screen and (max-width: 700px) {
         .grid-item-header {
             margin-top: 12px;
