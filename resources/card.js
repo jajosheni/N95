@@ -1,30 +1,35 @@
 export default {
-  coverImage: 'https://shemehamitaj.com/assets/images/banner.png',
-  profileImage: 'https://shemehamitaj.com/assets/images/profile.jpg',
-  fullName: 'Sheme Hamitaj',
-  profession: 'Computer Engineer',
+  coverImage: 'https://i.pinimg.com/originals/5e/66/18/5e6618a423dbc370f695a947842724ef.jpg',
+  profileImage: 'https://cdn.dribbble.com/users/1634115/screenshots/6245839/spiderman-dribbble.png',
+  fullName: 'Peter Parker',
+  profession: 'Spider-Man',
   cv: {
-    url: 'https://shemehamitaj.com/assets/RESUME_Hamitaj.pdf',
+    url: 'http://www.msnlabs.com/img/resume-sample.pdf',
     icon: 'mdi-download'
   },
   email: {
-    address: 'shen.i@live.com',
+    address: 'peter@parker.com',
     icon: 'mdi-email-send'
   },
   links: [
     {
       title: 'Github',
-      url: 'https://github.com/jajosheni',
+      url: '#',
       icon: 'mdi-github'
     },
     {
       title: 'Linkedin',
-      url: 'https://www.linkedin.com/in/shemehamitaj',
+      url: '#',
       icon: 'mdi-linkedin'
     },
     {
+      title: 'Instagram',
+      url: '#',
+      icon: 'mdi-instagram'
+    },
+    {
       title: 'Play Store',
-      url: 'https://play.google.com/store/apps/dev?id=9083946006672030470',
+      url: '#',
       icon: 'mdi-google-play'
     }
   ]
