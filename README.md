@@ -1,3 +1,5 @@
+<img src="https://shemehamitaj.com/assets/images/spiderman.png" alt="screenshot" width="100%">
+
 ## Get Started
 
 Clone this repo locally:
