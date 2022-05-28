@@ -8,18 +8,18 @@ export default {
     icon: 'mdi-tie',
     data: [
       {
-        title: 'Full stack developer',
-        start: '06/2021',
+        title: 'Spider-Man',
+        start: '06/2010',
         end: 'present',
-        company: 'circuly GmbH',
-        description: 'Working with an awesome international team to enable circular business models through SaaS.'
+        company: 'Spider-Verse',
+        description: 'Swinging from building to building, fighting bad guys and making a difference in the world.'
       },
       {
-        title: 'Robotics Developer',
-        start: '08/2019',
-        end: '08/2020',
-        company: 'Kocaeli University',
-        description: 'Work with a diverse team of electric and electronic engineers to create and develop AMR with natural navigation.'
+        title: 'Journalist',
+        start: '06/2010',
+        end: 'present',
+        company: 'Freelance',
+        description: 'Taking selfies secretly and selling them to newspapers, it\s a win win, right?'
       },
     ]
   },
@@ -28,18 +28,11 @@ export default {
     icon: 'mdi-school',
     data: [
       {
-        major: 'Computer engineering',
-        start: '09/2015',
-        end: '07/2020',
-        institute: 'Kocaeli University',
-        description: 'Bachelor\'s Degree from Computer Engineering Department at Kocaeli University, Turkey.'
-      },
-      {
-        major: 'Turkish preparatory school ',
+        major: 'Journalism',
         start: '09/2014',
-        end: '08/2015',
-        institute: 'Kocaeli University',
-        description: 'Attended Turkish Language course at the Language Center located inside Kocaeli University, Turkey.'
+        end: '07/2018',
+        institute: 'High School',
+        description: 'Hanging out with Ned and MJ, throwing house parties, city parties and all kind of parties.'
       },
     ]
   },
@@ -48,16 +41,16 @@ export default {
     icon: 'mdi-medal',
     data: [
       {
-        title: 'IELTS academic',
+        title: 'Key of LA',
         date: '14/07/2020',
-        issuedBy: 'British Council',
-        description: 'English Proficiency C1 Certificate with a 7.65 out of 9.0 score. Test taken in Istanbul, Turkey.'
+        issuedBy: 'Los Angeles Major',
+        description: 'I was honered to be given the key to the city by the Los Angeles Major. #goals'
       },
       {
-        title: 'OBSS Code Master',
+        title: 'Best Costume',
         date: '19/12/2019',
-        issuedBy: 'OBSS',
-        description: 'A hackathon held at Kocaeli University by OBSS. Awarded 3rd place with a bonus of 1000TRY.'
+        issuedBy: 'Marvel Comics',
+        description: 'Got the award for the best costume ever made on Marvel Comics, gotta love it.'
       },
     ]
   },
@@ -66,34 +59,26 @@ export default {
     icon: 'mdi-library-shelves',
     data: [
       {
-        title: 'A Survey of ROS Security',
+        title: 'Research paper on criminals.',
         date: '10/07/2019',
-        issuedBy: 'IWW2019',
-        description: 'Published a conference paper at 10th International Conference on Image Processing, Wavelet and Applications.'
+        issuedBy: 'MIT',
+        description: 'Published a research paper at MIT about criminal behaviours and predictions.'
       },
     ]
   },
   skills: [
     {
-      title: 'Coding',
+      title: 'Swinging',
       barType: 'line',
-      icon: 'mdi-console',
+      icon: 'mdi-web',
       items: [
         {
-          title: 'C/C++',
+          title: 'Horizontally',
           level: 80
         },
         {
-          title: 'Java/Android',
-          level: 85
-        },
-        {
-          title: 'Javascript',
-          level: 92
-        },
-        {
-          title: 'PHP',
-          level: 87
+          title: 'Vertically',
+          level: 90
         },
       ]
     },
@@ -114,10 +99,6 @@ export default {
           title: 'After Effects',
           level: 80
         },
-        {
-          title: 'Premiere',
-          level: 75
-        },
       ]
     },
     {
@@ -133,14 +114,6 @@ export default {
           title: 'English',
           level: 94
         },
-        {
-          title: 'Turkish',
-          level: 89
-        },
-        {
-          title: 'Italian',
-          level: 62
-        }
       ]
     },
     {
@@ -149,21 +122,13 @@ export default {
       icon: 'mdi-book-open-page-variant',
       items: [
         {
-          title: 'Mobile Apps',
+          title: 'Web shoot',
           level: 94
         },
         {
-          title: 'Desktop Apps',
+          title: 'Taking pictures',
           level: 91
         },
-        {
-          title: 'Web Apps',
-          level: 97
-        },
-        {
-          title: 'Embedded',
-          level: 85
-        }
       ]
     }
   ],

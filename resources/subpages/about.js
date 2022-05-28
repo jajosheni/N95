@@ -3,19 +3,14 @@ export default {
   pageTitle: 'About',
   icon: 'mdi-account-cowboy-hat',
 
-  greeting: 'Hello, I am Sheme Hamitaj.',
-  description: 'Computer Engineer experienced in Robotics, Computer Vision, Embedded Systems, Desktop, Mobile & Web Apps. Currently working as a Full Stack Developer using Vue & NuxtJS on the front end and PHP & Laravel on the backend. Previous work history includes many industries starting from Sports Reporting to Photography & Videography, Acting, Translation etc.',
+  greeting: 'Hello, I am Peter Parker.',
+  description: 'American teenager Peter Parker, a poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility, along with the ability to cling to walls, turning him into Spider-Man.',
   birthYear: '1996',
-  residence: 'Albania',
+  residence: 'USA',
   freelance: 'Unavailable',
-  address: 'Tirane, ALB',
+  address: 'Los Angeles, CA',
   quote: 'An ambitious man either wins or learns.',
   hobbies: [
-    {
-      title: 'Chess',
-      icon: 'mdi-chess-knight',
-      description: 'My father taught me this flawless game when I was 4 years old and I have been playing ever since.'
-    },
     {
       title: 'Table Tennis',
       icon: 'mdi-table-tennis',
