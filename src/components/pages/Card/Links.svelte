@@ -17,7 +17,7 @@
 
     .social-media > a {
         display: inline-block;
-        padding: 0 3px;
+        padding: 3px 3px 0 3px;
     }
 
     .social-media > a:hover {
