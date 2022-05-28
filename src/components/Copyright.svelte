@@ -1,5 +1,4 @@
 <div class="template-footer">
-    <i class="mdi mdi-copyright text-color"></i>
     <a href="https://github.com/jajosheni/N95">N95 Template</a>
 </div>
 
@@ -12,11 +11,6 @@
         border-radius: 0 var(--radius) var(--radius) 0;
         padding: 5px;
         opacity: 25%;
-    }
-
-    .template-footer > i,
-    .template-footer > a {
-        vertical-align: middle;
     }
 
     .template-footer:hover {
