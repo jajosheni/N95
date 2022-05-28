@@ -35,4 +35,14 @@
         overflow-y: scroll;
         padding: 30px 20px 30px 30px;
     }
+
+    @media only screen and (max-width: 1130px) {
+        .grid-item-drawer {
+            height: 100%;
+            box-shadow: none;
+            border-radius: var(--radius);
+            padding: 30px 30px 0;
+            margin-bottom: 0;
+        }
+    }
 </style>
