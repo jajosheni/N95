@@ -64,8 +64,8 @@
         background: linear-gradient(to bottom right, white, transparent, transparent)
     }
 
-    button > i,
-    button > span {
-        vertical-align: middle;
+    button {
+        display: flex;
+        align-items: center;
     }
 </style>

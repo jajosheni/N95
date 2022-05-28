@@ -27,9 +27,9 @@
         justify-content: space-between;
     }
 
-    .product-title > i,
-    .product-title > span {
-        vertical-align: middle;
+    .product-title {
+        display: flex;
+        align-items: center;
     }
 </style>
 

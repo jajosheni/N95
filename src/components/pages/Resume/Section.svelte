@@ -14,8 +14,8 @@
 </div>
 
 <style>
-    .section-title > i,
-    .section-title > span {
-        vertical-align: middle;
+    .section-title {
+        display: flex;
+        align-items: center;
     }
 </style>
