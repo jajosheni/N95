@@ -4,7 +4,7 @@
 
 ## Get Started
 
-Clone this repo locally:
+Clone this [repo](https://github.com/jajosheni/N95) locally:
 
 ```bash
 git clone https://github.com/jajosheni/N95
