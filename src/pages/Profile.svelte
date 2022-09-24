@@ -14,7 +14,7 @@
         </div>
 
         <div class="full-name">
-            <span id="full-name">{card.fullName}</span>
+            <h1 id="full-name">{card.fullName}</h1>
         </div>
 
         <div class="subtitle">
@@ -65,13 +65,15 @@
         border: solid 3px var(--card-background);
     }
 
-    .full-name {
-        text-align: center;
-        font-size: 30px;
-    }
-
     .subtitle {
         text-align: center;
         font-size: 0.95em;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+        font-weight: normal;
     }
 </style>
