@@ -8,9 +8,16 @@ export default {
     icon: 'mdi-tie',
     data: [
       {
+        title: 'Backend lead developer',
+        start: '12/2022',
+        end: 'present',
+        company: 'circuly GmbH',
+        description: 'Working with an awesome international team to enable circular business models through SaaS.'
+      },
+      {
         title: 'Full stack developer',
         start: '06/2021',
-        end: 'present',
+        end: '12/2022',
         company: 'circuly GmbH',
         description: 'Working with an awesome international team to enable circular business models through SaaS.'
       },
