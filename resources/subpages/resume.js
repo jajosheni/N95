@@ -25,7 +25,7 @@ export default {
       },
       {
         title: "Full stack developer",
-        start: "06/2021",
+        start: "01/2021",
         end: "12/2022",
         company: "circuly GmbH",
         description:
