@@ -23,6 +23,11 @@ export default {
       icon: 'mdi-linkedin'
     },
     {
+      title: 'Instagram',
+      url: 'https://www.instagram.com/shemehamitaj',
+      icon: 'mdi-instagram'
+    },
+    {
       title: 'Play Store',
       url: 'https://play.google.com/store/apps/dev?id=9083946006672030470',
       icon: 'mdi-google-play'
