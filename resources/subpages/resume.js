@@ -11,7 +11,7 @@ export default {
         title: "Senior Software Developer",
         start: "09/2023",
         end: "present",
-        company: "Ritech Solutions AG",
+        company: "Freelance",
         description:
           "Collaborating to design and implement software, ensuring seamless communication and code integration.",
       },
